@@ -25,7 +25,7 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/TMPS-ProiectAn" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/tmps" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,6 +42,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
+    "Notification.DoNotAsk-Vcs Important Messages": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
@@ -54,7 +56,7 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "ts.external.directory.path": "C:\\Users\\Admin\\Desktop\\project_react\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   },
@@ -114,6 +116,7 @@
       <workItem from="1685707578656" duration="55887000" />
       <workItem from="1685983218183" duration="2202000" />
       <workItem from="1685986709397" duration="9116000" />
+      <workItem from="1686012798276" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="TMPS">
       <created>1685986344928</created>
