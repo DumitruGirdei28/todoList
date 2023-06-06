@@ -1,0 +1,77 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype polyline
+
+class node6 as "@types/.../index.d.ts"
+class node4 as "Adapter/TaskAdapter.js"
+class node13 as "Adapter/TaskList.js" {
+   React: 
+   TaskAdapter: 
+}
+class node7 as "Decorator/Category.js" {
+   React: 
+}
+class node14 as "Decorator/CategoryDecorator.js" {
+   Category: 
+}
+class node15 as "Decorator/Task.js"
+class node9 as "Decorator/TaskCategories.js" {
+   React: 
+}
+class node16 as "Decorator/TaskGroup.js" {
+   Task: 
+}
+class node11 as "StateP/HighPriorityState.js" {
+   TaskState: 
+}
+class node12 as "StateP/LowPriorityState.js" {
+   TaskState: 
+}
+class node1 as "StateP/MediumPriorityState.js" {
+   TaskState: 
+}
+class node17 as "StateP/Task1.js" {
+   Checkbox: 
+   useState: 
+}
+class node2 as "StateP/TaskState.js"
+class node5 as "Strategy_FactoryMethod/FilterStrategy.js" {
+   AllTasksFilter: 
+   CompletedTasksFilter: 
+   IncompleteTasksFilter: 
+}
+class node18 as "Strategy_FactoryMethod/TaskFilterStrategyFactory.js" {
+   AllTasksFilter: 
+   CompletedTasksFilter: 
+   IncompleteTasksFilter: 
+}
+class node3 as "componente/Checkbox.js"
+class node8 as "componente/TaskForm.js" {
+   useState: 
+}
+class react {
+   useState: 
+}
+class node10 as "react/react.shared-subset.js"
+
+node13  <-[#595959,plain]-  node6  
+node13  <-[#595959,plain]-  node4  
+node13  <-[#595959,plain]-  node10 
+node7   <-[#595959,plain]-  node6  
+node7   <-[#595959,plain]-  node10 
+node14  <-[#595959,plain]-  node7  
+node9   <-[#595959,plain]-  node6  
+node9   <-[#595959,plain]-  node10 
+node16  <-[#595959,plain]-  node15 
+node11  <-[#595959,plain]-  node2  
+node12  <-[#595959,plain]-  node2  
+node1   <-[#595959,plain]-  node2  
+node17  <-[#595959,plain]-  node3  
+node17  <-[#595959,plain]-  react  
+node18  <-[#595959,plain]-  node5  
+node18  <-[#595959,plain]-  node5  
+node18  <-[#595959,plain]-  node5  
+node8   <-[#595959,plain]-  react  
+@enduml

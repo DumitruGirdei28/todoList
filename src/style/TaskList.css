@@ -1,0 +1,34 @@
+.task-list1 {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.task-info1 {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.task-name1 {
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.task-priority1 {
+    font-style: italic;
+    color: #888;
+}
+
+.task-status1 {
+    font-weight: bold;
+    color: green;
+}

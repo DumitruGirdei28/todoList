@@ -1,0 +1,192 @@
+body {
+  background-color: #17181f;
+  color: #ddd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+form {
+  border: 3px solid #30313D;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+}
+
+form input[type="text"] {
+  background: none;
+  color: #fff;
+  border: 0;
+  padding: 0 8px;
+  display: block;
+  width: 100%;
+}
+
+form button {
+  background-color: #c77b7b;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+form button:focus {
+  background-color: #b25959;
+}
+
+div.task {
+  background-color: #30313D;
+  border-radius: 10px;
+  padding: 5px 9px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.3s linear;
+}
+
+div.task svg {
+  height: 20px;
+  margin-right: 6px;
+  fill: #e9efe7;
+}
+
+div.task.done {
+  opacity: 0.3;
+}
+
+div.task-name,
+div.task form {
+  flex-grow: 1;
+}
+
+div.task span {
+  position: relative;
+}
+
+div.task span:before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background-color: #ddd;
+  position: absolute;
+  top: 10px;
+  transition: width 0.1s linear;
+}
+
+div.task.done span:before {
+  width: 100%;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+div.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+button.trash {
+  background: none;
+  border: none;
+  display: flex;
+  cursor: pointer;
+}
+
+button.trash svg {
+  fill: #de0606;
+  height: 14px;
+}
+
+div.task input {
+  border: 2px solid #555;
+  border-radius: 5px;
+  padding: 2px 4px;
+}
+
+
+.task-name {
+  color: #ddd;
+}
+
+div.task.high-priority {
+  color: red;
+}
+
+div.task.medium-priority {
+  color: blue;
+}
+
+div.task.low-priority {
+  color: yellow;
+}
+â.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.task-name {
+  flex: 1;
+}
+
+.task-priority {
+  margin-right: 8px;
+}
+
+.task-status {
+  font-weight: bold;
+  color: green;
+}
+.task-list1 {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.task-info1 {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.task-name1 {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.task-priority1 {
+  font-style: italic;
+  color: #888;
+}
+
+.task-status1 {
+  font-weight: bold;
+  color: green;
+}
