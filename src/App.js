@@ -10,8 +10,6 @@ import HighPriorityState from "./app_components/StateP/HighPriorityState";
 import {AllTasksFilter} from "./app_components/Strategy_FactoryMethod/FilterStrategy";
 import TaskList from "./app_components/Adapter/TaskList";
 import TaskBuilder from "./app_components/Builder/TaskBuilder";
-
-
 const App = () => {
     const [tasks, setTasks] = useState([]);
     const [filter, setFilter] = useState("toate");
